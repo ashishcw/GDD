@@ -58,46 +58,60 @@
                                                             <div class="all-steps" id="all-steps"> <span class="step">
                                                                 <i class="fa fa-map"></i>
                                                             </span> <span class="step">
-                                                                <i class="fa fa-map-marker"></i>
+                                                                <i class="fa fa-envelope-open"></i>
                                                             </span> <span class="step">
-                                                                <i class="fa fa-shopping-bag"></i>
+                                                                <i class="fa fa-archive"></i>
                                                             </span> 
                                                             <span class="step">
-                                                                <i class="fa fa-car"></i>
+                                                                <i class="fa fa-user-circle"></i>
                                                             </span> 
                                                             <span class="step">
-                                                                <i class="fa fa-spotify"></i>
+                                                                <i class="fa fa-binoculars"></i>
                                                             </span> 
                                                             <span class="step">
-                                                                <i class="fa fa-mobile-phone"></i>
+                                                                <i class="fa fa-gamepad"></i>
                                                             </span> 
                                                         </div>
                                                             <div class="tab">
                                                                 <h6>What's the Title of your game?</h6>
                                                                 <p> <input placeholder="Title..." oninput="this.className = ''" name="fname"></p>
+
+                                                                <label for="Summary">Author/Team Details : </label>
+                                                                <textarea id="Summary" name="Summary" placeholder="Enter the name/s along with designations here, this will go in the credits section" rows="4" cols="50"></textarea>
+                                                                
                                                             </div>
                                                             <div class="tab">
-                                                                <h6>What's your city?</h6>
-                                                                <p><input placeholder="City" oninput="this.className = ''" name="dd"></p>
+                                                                <h6>What's the Summary of your game?</h6>
+                                                                <!-- <p><input placeholder="Executive Summary" oninput="this.className = ''" name="dd"></p> -->
+                                                                <label for="Summary">Summary of your Title : </label>
+                                                                <textarea id="Summary" name="Summary" placeholder="Enter your summary here" rows="4" cols="50"></textarea>                                                                
                                                             </div>
                                                             <div class="tab">
-                                                                <h6>What's your Favourite Shopping site?</h6>
-                                                                <p><input placeholder="Favourite Shopping site" oninput="this.className = ''" name="email"></p>
+                                                                <h6>What's a concept of the Game?</h6>
+                                                                <label for="concept">Concept of the Game : </label>
+                                                                <textarea id="concept" name="concept" placeholder="Enter your concept here" rows="4" cols="50"></textarea>
+                                                                <!-- <p><input placeholder="Favourite Shopping site" oninput="this.className = ''" name="email"></p> -->
                                                             </div>
                                                             <div class="tab">
-                                                                <h6>What's your Favourite car?</h6>
-                                                                <p><input placeholder="Favourite car" oninput="this.className = ''" name="uname"></p>
+                                                                <h6>Tell us something about it's genre/target audiance?</h6>
+                                                                <!-- <p><input placeholder="Favourite car" oninput="this.className = ''" name="uname"></p> -->
+                                                                <label for="genre">Genre/target Audiance for your game : </label>
+                                                                <textarea id="genre" name="genre" placeholder="E.g. Action, Action-adventure, Adventure, Role-playing, Simulation, Strategy, Sports, Puzzle etc." rows="4" cols="50"></textarea>
                                                             </div>
                                                             <div class="tab">
-                                                                <h6>What's your Favourite Song?</h6>
-                                                                <p><input placeholder="Favourite Song" oninput="this.className = ''" name="uname"></p>
+                                                                <h6>What's the scope of your project?</h6>
+                                                                <label for="scope">Tell us something about the project scope : </label>
+                                                                <textarea id="scope" name="scope" placeholder="E.g. Single-Player, Multi-Player, Character-Development, Real-Time Simulation, Handheld Device(Android/iOS)/Platform(Windows/linux)/Console(PS/XBOX) Specific etc." rows="4" cols="50"></textarea>
+                                                                <!-- <p><input placeholder="Favourite Song" oninput="this.className = ''" name="uname"></p> -->
                                                             </div>
                                                             <div class="tab">
-                                                                <h6>What's your Favourite Mobile brand?</h6>
-                                                                <p><input placeholder="Favourite Mobile Brand" oninput="this.className = ''" name="uname"></p>
+                                                                <h6>What about Gameplay?</h6>
+                                                                <label for="gameplay">Tell us something about the project gameplay : </label>
+                                                                <textarea id="gameplay" name="scope" placeholder="e.g The game focuses on providing sandbox gameplay features that give the player freedom to do what they want in its world instead of focusing on a linear story." rows="4" cols="50"></textarea>
+                                                                <!-- <p><input placeholder="Favourite Mobile Brand" oninput="this.className = ''" name="uname"></p> -->
                                                             </div>
                                                             <div class="thanks-message text-center" id="text-message"> <img src="https://i.imgur.com/O18mJ1K.png" width="100" class="mb-4">
-                                                                <h3>Thankyou for your feedback!</h3> <span>Thanks for your valuable information. It helps us to improve our services!</span>
+                                                                <h3>Thank you for using GDD, your file will be downloaded shortly</h3> <span></span>
                                                             </div>
                                                             <div style="overflow:auto;" id="nextprevious">
                                                                 <div style="float:right;"> <button type="button" id="prevBtn" onclick="nextPrev(-1)"><i class="fa fa-angle-double-left"></i></button> <button type="button" id="nextBtn" onclick="nextPrev(1)"><i class="fa fa-angle-double-right"></i></button> </div>
